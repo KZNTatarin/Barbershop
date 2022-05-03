@@ -1,0 +1,945 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 23px 0;
+}
+
+.navbar a{
+ font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    color: #2E2E2E;
+}
+
+header {
+    width: 100%;
+    background: url(../img/headerBG.jpg) 0 0 no-repeat;
+        background-size: 100%; 
+}
+
+h1{
+    padding-top: 200px;
+    color: rgb(211, 211, 211);
+    text-align: center;
+    font-family: Russo One,Arial;
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+.header_bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(67, 67, 67, 0.59);
+}
+
+.header__content{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.header__logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.header__logo div{
+    align-self: center;
+    margin: 0 10px;
+}
+.header__logo p{
+    font-family:Russo One,Arial;
+    font-weight: 400;
+    font-size: 56px;
+    color: rgb(255, 255, 255);
+}
+
+.header__about {
+    margin: 30px 0 50px 0;
+}
+
+.header__about p {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 12px;
+}
+
+.header__about a {
+      font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 36px;
+    color: rgb(255, 255, 255);
+}
+
+.header__about a:hover {
+    text-decoration: underline;
+}
+
+.header__more {
+}
+.header__more p {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 20px;
+     color: rgb(255, 255, 255);
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.header__more a {
+    padding: 10px 20px;
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 20px;
+    color: white;
+    border: solid 1px white;
+    
+    transition: 0.5s;
+}
+
+.header__more a:hover{
+    border: solid 1px black;
+    color: black;
+    background-color: white;
+} 
+
+.for-man {
+    color: white;
+    background-color: rgb(33, 33, 33);
+    padding: 100px 0;
+}
+
+.style__content {
+    text-align: center;
+    margin-bottom: 110px;
+}
+.style__logo {
+    margin-bottom: 35px;
+}
+h2 {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 52px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    line-height: 75px;
+}
+.style__text {
+    margin-top: 80px;
+}
+
+.style__text p {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(211, 211, 211);
+    line-height: 40px;
+}
+
+.info__statistics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.statistic-card {
+    display: flex;
+}
+.statistic-card__number {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+.statistic-card__info {
+     font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(217, 217, 217);
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+.info__plus{
+    display: flex;
+    justify-content: space-around;
+}
+
+.plus-card{
+    text-align: center;
+}
+
+.plus-card__img{
+    margin-bottom: 20px;
+}
+
+.plus-card__text{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb (204, 204, 204);
+    line-height: 30px;
+}
+
+.price {
+    padding: 90px 0;
+}
+
+.price_text {
+    text-align: center;
+    margin-bottom: 120px;
+}
+h3 {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 52px;
+    color: #111;  
+    line-height: 80px;
+}
+
+.price_text p{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(153, 153, 153);
+    margin-top: 60px;
+}
+
+.price__card {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+.price-card__img {
+    align-self: center;
+}
+
+.price-card__text {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(102, 102, 102);
+      align-self: center;
+}
+.price-card__cost {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: #111;
+      align-self: center;
+}
+
+.price__card-divide{
+    height: 2px;
+    width: 100%;
+    background-color: #cccccc;
+    margin: 35px 0;
+}
+
+.care {
+    background: url(../img/BG-section2.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+.care__bg {
+    height: 100%;
+    width: 100%;
+    background-color:rgba(33, 33, 33, 0.86);
+    padding: 110px 0;
+}
+
+.care__about {
+    text-align: center;
+    margin-bottom: 150px;
+}
+.care__about p {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(183, 183, 183);
+    line-height: 30px;
+    margin-top: 50px;
+    
+}
+
+.care__creams {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 30px;
+    border: solid 5px rgb(204, 204, 204);
+}
+.cream-card {
+    text-align: center;
+}
+
+ h4 {
+     font-family: 'Rubik';
+     font-weight: 300;
+     font-size: 22px;
+     margin: 15px 0;
+}
+
+.cream-card__text p {
+    font-family: 'Rubik';
+     font-weight: 300;
+     font-size: 16px;
+    color: rgb(153, 153, 153);
+    line-height: 22px;
+}
+
+.barber {
+    padding: 100px 0;
+}
+
+.interior{
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+    background-color: rgb(52,52,57);
+}
+
+ .swiper {
+        max-width: 916px;
+        margin: 30px 0;
+      }
+
+.swiper-slide {
+        text-align: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+.swiper-slide img {
+        display: block;
+    width: 100%;
+        object-fit: cover;
+      }
+
+.swiper-button-next::after, .swiper-button-prev::after{
+   font-size: 80px;
+    color: white;
+}
+
+html:root {
+    --swiper-theme-color: #f2f8fd;
+}
+
+.interior__text {
+    font-family: 'Rubik';
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    line-height: 1.4;
+}
+
+.barber__text {
+    text-align: center;
+}
+
+.barber__text p {
+    margin: 50px 0;
+     font-family: 'Rubik';
+     font-weight: 300;
+     font-size: 22px;
+    color: rgb(128, 128, 128);
+    line-height: 28px;
+}
+
+.barber__cards {
+    display: flex;
+    justify-content: space-between;
+}
+.barber__card {
+text-align: center;
+    align-self: flex-start;
+}
+
+.barber-card__img img {
+    max-width: 320px;
+    max-height: 204px;
+}
+
+ .barber-card__text p {
+    font-family: 'Rubik';
+     font-weight: 300;
+     font-size: 18px;
+    color: rgb(153, 153, 153);
+    line-height: 27px;
+}
+
+.clients {
+    padding: 80px 0;
+    width: 100%;
+}
+
+.clients h3 {
+    text-align: center;
+}
+
+.clients__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+.clients__photo {
+    margin-right: 20px;
+}
+.clents-photo__solo {
+    margin-bottom: 20px;
+}
+
+.clients-photo__two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients__text {
+    align-self: stretch;
+    background-color: rgb(37,40,48);
+    text-align: center;
+    padding: 50px;
+   box-sizing: content-box;
+}
+
+h5 {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    margin: 30% 0 30px 0;
+}
+
+.clients p {
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 18px;
+      color: rgb(204, 204, 204);
+    line-height: 1.4;
+}
+
+footer {
+    background: url(../img/BG-footer.jpeg) 0 0 no-repeat;
+      background-size: cover;
+}
+.footer__bg {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(33, 33, 33, 0.9);
+    padding: 90px 0;
+}
+
+footer h2{
+    text-align: center;
+}
+
+.footer__cards {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+.footer__card {
+    padding: 10px 40px;
+}
+.footer__card-img {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer__card-text {
+    font-family: 'Rubik';
+    font-size: 22px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 32px;
+}
+
+.footer__forms {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.footer__forms p{
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 22px;
+    color: rgb(211, 211, 211);
+    line-height: 30px;
+}
+
+.footer__form {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.footer__form input{
+    display: flex;
+    margin: 15px auto;
+    width: 450px;
+    padding: 10px;
+    height: 30px;
+    font-family: 'Russo One';
+    font-weight: 400;
+    color: black;
+    font-size: 18px;
+}
+
+.footer__form a{
+    padding: 10px 20px;
+    font-family: 'Rubik';
+    font-weight: 300;
+    font-size: 20px;
+    border: solid 2px #FFFFFF;
+    color: white;
+    
+    transition: 0.3s;
+}
+
+.footer__form a:hover{
+     border: solid 2px #000;
+    color: black;
+    background-color: white;
+}
+
+.footer__form-submit{
+    margin-top: 30px;
+}
+
+.footer__info {
+     display: flex;
+     justify-content: space-between;
+}
+ 
+.adress__list {
+    margin-top: 30px;
+}
+
+ .adress__list li {
+     font-family: 'Rubik';
+     font-weight: 300;
+     font-size: 18px;
+     color: white;
+     line-height: 1.4;
+}
+.tel{
+     font-family: 'Rubik';
+     font-weight: 300;
+     font-size: 18px;
+     color: white;
+     line-height: 1.4;
+}
+
+.tel:hover{
+    text-decoration: underline;
+}
+
+.footer__border{
+    margin-top: 50px;
+    height: 2px;
+    background-color: #cccccc;
+    width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) { 
+    .container{
+        max-width: 992px;
+    }
+    header{
+         background-size: 120%;
+    }
+    .care{
+        background: url(../img/BG-section2.jpg) 50% 0 no-repeat;
+         background-size: cover;
+    }
+    footer{
+        background: url(../img/BG-footer.jpeg) 50% 0 no-repeat;
+         background-size: cover;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .container{
+        max-width: none;
+    }
+    header {
+    background: url(../img/headerBG.jpg) 50% 0 no-repeat;
+        background-size: cover; 
+    }
+    .price__card{
+        padding: 0 30px;
+    }
+    .barber__cards{
+        display: block;
+    }
+    .barber-card__text p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .clients__text{
+        padding: 5px;
+        
+    }
+    .clients__text p{
+       font-size: 17px; 
+    }
+    footer{
+        background: url(../img/BG-footer.jpeg) 50% 0 no-repeat;
+         background-size: cover;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .container{
+        max-width: none;
+    }
+    header {
+    background: url(../img/headerBG.jpg) 50% 0 no-repeat;
+        background-size: cover; 
+    }
+    .info__statistics{
+        display: flex;
+        flex-direction: column;
+        padding: 0 30px;
+    }
+    .statistic-card{
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .statistic-card__info{
+        text-align: center;
+    }
+    .price__card{
+        padding: 0; 
+    }
+    .price-card__text{
+        text-align: center;
+        margin: 0 10px;
+    }
+     .care{
+        background: url(../img/BG-section2.jpg) 50% 0 no-repeat;
+         background-size: cover;
+    }
+    .care__about-img{
+        margin-bottom: 30px;
+    }
+    .care__creams{
+        display: block;
+    }
+    .cream-card{
+        margin-bottom: 50px;
+    }
+    .cream-card p{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 27px;
+    }
+    footer{
+        background: url(../img/BG-footer.jpeg) 50% 0 no-repeat;
+         background-size: cover;
+    }
+     .barber__cards{
+        display: block;
+    }
+    .barber-card__text p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .clients__content{
+        display: block;
+    }
+    .clents-photo__solo img{
+        width: 100%;
+    }
+    .clients__photo{
+        margin: 0 0 15px 0;
+    }
+     .clients__text{
+        padding: 30px;
+         align-items:center;
+    }
+    h5{
+        margin: 10px 0;
+    }
+    .footer__cards{
+        display: block;
+    }
+    .footer__card{
+        margin-bottom: 15px;
+    }
+    .footer__info{
+        display: block;
+    }
+    .adress__list li{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 27px;
+    }
+    .adress__list li a{
+         font-size: 27px;
+    }
+    .adress__list{
+        margin-bottom: 30px;
+    }
+    .footer__logo{
+        text-align: center;
+    }
+}
+
+
+
+
+
+@media (max-width: 575px) { 
+    .container{
+        max-width: none;
+        padding: 0 13px;
+    }
+    .navbar{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    .navbar div{
+        margin: 5px;
+    }
+    .navbar div a{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 30px;
+         line-height: 40px;
+    }
+    header {
+    background: url(../img/headerBG.jpg) 50% 0 no-repeat;
+        background-size: cover; 
+    }
+    .header__logo{
+       display: block;
+    }
+     .info__statistics{
+        display: block;
+    }
+    .statistic-card{
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .statistic-card__info{
+        margin-left: 70px;
+        text-align: center;
+    }
+     .price__card{
+        padding: 0;
+         display: block;
+         text-align: center;
+    }
+    .price-card__text{
+        text-align: center;
+        margin: 20px 0;
+    }
+     .care__about-img{
+        margin-bottom: 30px;
+    }
+    .care__creams{
+        display: block;
+    }
+    .cream-card{
+        margin-bottom: 50px;
+    }
+    .cream-card p{
+        font-size: 25px;
+    }
+    h4{
+        font-size: 27px;
+    }
+     .barber__cards{
+        display: block;
+    }
+    .barber-card__text p{
+        font-size: 22px;
+        margin-bottom: 50px;
+    }
+    .barber-card__img{
+        text-align: center;
+    }
+    .barber-card__img img{
+        width: 259px;
+    }
+     .clients__content{
+        display: block;
+    }
+    .clents-photo__solo img{
+        width: 100%;
+    }
+    .clients__photo{
+        margin: 0 0 15px 0;
+    }
+     .clients__text{
+        padding: 30px;
+         align-items:center;
+    }
+    h5{
+        margin: 10px 0;
+    }
+    .clients-photo__two img{
+        width: 140px;
+    }
+    .footer__cards{
+        display: block;
+    }
+    .footer__card{
+        margin-bottom: 15px;
+    }
+    .footer__info{
+        display: block;
+    }
+    .adress__list li{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 27px;
+    }
+    .adress__list li a{
+         font-size: 27px;
+    }
+    .adress__list{
+        margin-bottom: 30px;
+    }
+    .footer__logo{
+        text-align: center;
+    }
+    .footer__form input{
+        width: 250px;
+    }
+    .footer__logo img{
+        width: 280px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
